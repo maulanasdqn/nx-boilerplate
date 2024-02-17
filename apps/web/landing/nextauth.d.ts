@@ -1,6 +1,7 @@
+/* eslint-disable @typescript-eslint/no-empty-interface */
 import { DefaultSession } from 'next-auth';
 
-export type TUser = {
+type TUser = {
   id: string;
   fullname: string;
   image?: string;

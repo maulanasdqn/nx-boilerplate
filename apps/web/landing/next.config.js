@@ -13,7 +13,6 @@ const nextConfig = {
     svgr: false,
   },
 
-  output: 'standalone',
   images: {
     remotePatterns: [
       {
@@ -33,16 +32,6 @@ const nextConfig = {
         hostname: 'loremflickr.com',
       },
     ],
-  },
-
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/auth/login',
-        permanent: true,
-      },
-    ];
   },
 };
 

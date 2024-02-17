@@ -6,10 +6,20 @@ const AuthLoginPage: NextPage = (): ReactElement => {
   return (
     <section className="flex flex-col items-center justify-center w-full h-screen">
       <div className="flex gap-x-4">
-        <Button variant={'primary'} variantType={'solid'} size={'sm'}>
+        <Button
+          data-testid="button-google"
+          variant={'primary'}
+          variantType={'solid'}
+          size={'sm'}
+        >
           Login with Google
         </Button>
-        <Button variant={'primary'} variantType={'solid'} size={'sm'}>
+        <Button
+          data-testid="button-github"
+          variant={'secondary'}
+          variantType={'solid'}
+          size={'sm'}
+        >
           Login with Github
         </Button>
       </div>

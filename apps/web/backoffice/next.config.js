@@ -13,7 +13,6 @@ const nextConfig = {
     svgr: false,
   },
 
-  output: 'standalone',
   images: {
     remotePatterns: [
       {
