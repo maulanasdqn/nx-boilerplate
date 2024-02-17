@@ -1,0 +1,15 @@
+{
+  "name": "web-backoffice",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/web/backoffice",
+  "projectType": "application",
+  "targets": {
+    "buildx": {
+      "executor": "@nx/web:webpack",
+      "options": {
+        "postcssConfig": "apps/web/backoffice/postcss.config.js"
+      }
+    }
+  },
+  "tags": []
+}

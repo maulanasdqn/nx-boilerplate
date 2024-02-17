@@ -1,0 +1,24 @@
+{
+  "name": "api-cms",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/api/cms/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "api-cms:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "api-cms:build:development"
+        },
+        "production": {
+          "buildTarget": "api-cms:build:production"
+        }
+      }
+    }
+  },
+  "tags": []
+}
