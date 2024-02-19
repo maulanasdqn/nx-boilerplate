@@ -37,16 +37,16 @@
             "type=sha,prefix=sha-"
           ]
         }
-      }
-    },
-    "configurations": {
-      "local": {
-        "tags": ["web-landing:latest"],
-        "push": false
       },
-      "production": {
-        "tags": ["my.image-registry.com/my-app:latest"],
-        "push": true
+      "configurations": {
+        "local": {
+          "tags": ["web-landing:latest"],
+          "push": false
+        },
+        "production": {
+          "tags": ["my.image-registry.com/my-app:latest"],
+          "push": true
+        }
       }
     }
   },
