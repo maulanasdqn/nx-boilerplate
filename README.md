@@ -7,13 +7,6 @@
 - Landing
 - CMS-API
 
-## Demo Aplikasi
-
-- https://himatif-uin-hackathon.uninus.ac.id
-- https://backoffice.himatif-uin-hackathon.uninus.ac.id
-- https://api.backoffice.himatif-uin-hackathon.uninus.ac.id
-- https://api.cms.himatif-uin-hackathon.uninus.ac.id
-
 # WAJIB Setup Husky
 
 Untuk bisa menggunakan husky agar berjalan baik dan benar maka perlu di inisialisasi dulu
